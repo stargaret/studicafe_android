@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="@drawable/studicafehome_bg"
+  android:layout_height="match_parent">
+   <Button android:background="@drawable/hm_studicafeblvd" android:layout_height="wrap_content" android:id="@+id/studicafeblvd" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="26dp" android:layout_marginTop="160dp"></Button>
+   <Button android:background="@drawable/hm_studyroom" android:layout_height="wrap_content" android:id="@+id/studiroom" android:layout_width="wrap_content" android:layout_below="@+id/marketst_button" android:layout_toRightOf="@+id/marketst_button"></Button>
+   <Button android:background="@drawable/hm_marketst" android:layout_height="wrap_content" android:id="@+id/marketst_button" android:layout_width="wrap_content" android:layout_below="@+id/studicafeblvd" android:layout_toLeftOf="@+id/studicafeblvd" android:layout_marginRight="14dp"></Button>
+</RelativeLayout>
